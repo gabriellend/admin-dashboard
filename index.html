@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <header></header>
+    <div class="side-bar">
+      <div class="side-bar-header">
+        <div class="side-bar-header-icon">
+          <div class="side-bar-header-icon-box top-left"></div>
+          <div class="side-bar-header-icon-box top-right"></div>
+          <div class="side-bar-header-icon-box bottom-left"></div>
+          <div class="side-bar-header-icon-box bottom-right"></div>
+        </div>
+        <h1 class="side-bar-header-title">Dashboard</h1>
+      </div>
+
+      <nav class="side-bar-nav">
+        <div class="side-bar-nav-top">
+          <ul>
+            <ion-icon name="home-sharp"></ion-icon>
+            <li id="home">Home</li>
+            <ion-icon name="person-sharp"></ion-icon>
+            <li>Profile</li>
+            <ion-icon name="chatbox-sharp"></ion-icon>
+            <li>Messages</li>
+            <ion-icon name="time-sharp"></ion-icon>
+            <li>History</li>
+            <ion-icon name="copy-sharp"></ion-icon>
+            <li>Tasks</li>
+            <ion-icon name="people-sharp"></ion-icon>
+            <li>Communities</li>
+          </ul>
+        </div>
+
+        <div class="side-bar-nav-bottom">
+          <ul>
+            <ion-icon name="settings-sharp"></ion-icon>
+            <li>Settings</li>
+            <ion-icon name="help-circle-sharp"></ion-icon>
+            <li>Support</li>
+            <ion-icon name="shield-checkmark-sharp"></ion-icon>
+            <li>Privacy</li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="main-content"></div>
+  </body>
+</html>
